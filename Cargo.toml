@@ -1,0 +1,3 @@
+[workspace]
+members = ["liquid-staking", "liquid-staking/meta"]
+resolver = "2"

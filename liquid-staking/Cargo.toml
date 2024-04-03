@@ -1,0 +1,25 @@
+[package]
+name = "liquid-staking"
+version = "0.0.0"
+authors = ["Hatom Labs"]
+edition = "2021"
+publish = false
+
+[lib]
+path = "src/contract.rs"
+
+[dependencies.admin]
+path = "../common/admin"
+
+[dependencies.itertools]
+version = "0.12.1"
+default-features = false
+
+[dependencies.multiversx-sc]
+version = "0.47.8"
+
+[dependencies.multiversx-sc-modules]
+version = "0.47.8"
+
+[dev-dependencies.multiversx-sc-scenario]
+version = "0.47.8"

@@ -1,0 +1,12 @@
+[package]
+name = "liquid-staking-abi"
+version = "0.0.0"
+authors = ["Hatom Labs"]
+edition = "2021"
+publish = false
+
+[dependencies.liquid-staking]
+path = ".."
+
+[dependencies.multiversx-sc-meta]
+version = "0.47.8"

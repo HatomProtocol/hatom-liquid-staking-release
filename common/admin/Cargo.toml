@@ -1,0 +1,13 @@
+[package]
+name = "admin"
+version = "0.0.1"
+edition = "2018"
+
+[lib]
+path = "src/admin.rs"
+
+[dependencies.multiversx-sc]
+version = "0.47.8"
+
+[dev-dependencies.multiversx-sc-scenario]
+version = "0.47.8"
